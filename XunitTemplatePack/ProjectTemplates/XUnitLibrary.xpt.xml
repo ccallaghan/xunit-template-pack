@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Template>
+	<TemplateConfiguration>
+		<_Name>XUnit Library Project</_Name>
+		<_Category>other/net/general</_Category>
+		<Icon>md-test-project</Icon>
+		<Image id="xunit-library-project" />
+		<LanguageName>C#</LanguageName>
+		<_Description>Creates XUnit Library Project.</_Description>
+	</TemplateConfiguration>
+	<Actions>
+	</Actions>
+	<Combine name="${ProjectName}" directory=".">
+		<Options>
+			<StartupProject>${ProjectName}</StartupProject>
+		</Options>
+		<Project name="${ProjectName}" directory=".">
+			<Options Target="Library" />
+			<References>
+				<Reference type="Gac" refto="System, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+			</References>
+			<Packages>
+				<package id="xunit" version="2.3.1" />
+				<package id="xunit.runner.visualstudio" version="2.3.1" />
+			</Packages>
+			<Files>
+				<File name="Fact.cs" src="Fact.cs" />
+			</Files>
+		</Project>
+	</Combine>
+</Template>

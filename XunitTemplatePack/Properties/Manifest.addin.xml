@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Runtime>
+	</Runtime>
+    
+	<Extension path="/MonoDevelop/Ide/TemplateImages">
+		<Image id="xunit-library-project" resource="images.xunit-library-project.png" />
+	</Extension>
+    
+	<Extension path="/MonoDevelop/Ide/FileTemplates">
+		<FileTemplate id="Fact" file="ClassTemplates/Fact.xft.xml" />
+		<FileTemplate id="Theory" file="ClassTemplates/Theory.xft.xml" />
+	</Extension>
+    
+	<Extension path="/MonoDevelop/Ide/ProjectTemplates">
+		<ProjectTemplate id="XUnitProject" file="ProjectTemplates/XUnitLibrary.xpt.xml" />
+	</Extension>
+    
+</ExtensionModel>

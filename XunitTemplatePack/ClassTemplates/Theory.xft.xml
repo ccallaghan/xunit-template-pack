@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Template>
+    <TemplateConfiguration>
+        <_Name>Empty Theory</_Name>
+        <Icon>md-class-file</Icon>
+        <_Category>XUnit</_Category>
+        <LanguageName>C#</LanguageName>
+        <_Description>Creates test theory.</_Description>
+    </TemplateConfiguration>
+    
+    <TemplateFiles>
+        <File name="${Name}.${LanguageExtension}" src="Theory.cs" DefaultExtension=".cs" />
+    </TemplateFiles>
+</Template>

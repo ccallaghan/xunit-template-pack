@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Template>
+    <TemplateConfiguration>
+        <_Name>Empty Fact</_Name>
+        <Icon>md-class-file</Icon>
+        <_Category>XUnit</_Category>
+        <LanguageName>C#</LanguageName>
+        <_Description>Creates test fact.</_Description>
+    </TemplateConfiguration>
+    
+    <TemplateFiles>
+        <File name="${Name}.${LanguageExtension}" src="Fact.cs" DefaultExtension=".cs" />
+    </TemplateFiles>
+</Template>
