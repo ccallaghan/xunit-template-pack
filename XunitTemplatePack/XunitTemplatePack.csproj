@@ -20,6 +20,7 @@
     <None Remove="ClassTemplates\Theory.xft.xml" />
     <None Remove="ProjectTemplates\XUnitLibrary.xpt.xml" />
     <None Remove="images\xunit-library-project.png" />
+    <None Remove="ProjectTemplates\coverage.sh" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="images\xunit-library-project.png">
@@ -33,5 +34,6 @@
     <AddinFile Include="ClassTemplates\Theory.xft.xml" />
     <AddinFile Include="ProjectTemplates\Fact.cs" />
     <AddinFile Include="ProjectTemplates\XUnitLibrary.xpt.xml" />
+    <AddinFile Include="ProjectTemplates\coverage.sh" />
   </ItemGroup>
 </Project>
